@@ -1,0 +1,42 @@
+{
+  "name": "library",
+  "description": "belajar node dengan bower",
+  "main": "index.js",
+  "authors": [
+    "zeihan"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "belajar",
+    "js"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0"
+  },
+  "overrides": {
+      "bootstrap": {
+          "main": [
+              "less/bootstrap.less",
+              "dist/js/bootstrap.js",
+               "dist/css/bootstrap.css"
+          ]
+      },
+      "font-awesome": {
+          "main": [
+              "less/font-awesome.less",
+              "css/font-awesome.css",
+              "scss/font-awesome.scss"
+          ]
+      }
+  }
+}

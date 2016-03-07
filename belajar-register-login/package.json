@@ -1,0 +1,16 @@
+{
+  "name": "belajar-register-login",
+  "version": "0.0.0",
+  "description": "Belajar membuat aplikasi sederhana untuk melakukan registrasi user dan login",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "belajar",
+    "node",
+    "js"
+  ],
+  "author": "zeihan aulia",
+  "license": "ISC"
+}
